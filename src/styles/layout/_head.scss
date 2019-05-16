@@ -1,0 +1,37 @@
+.main-nav{
+  height: 90px;
+  background-color: #000000;
+  opacity: 0.8;
+  margin-top: -16px; // там в глобальних відступ для контенту щоб не було переповнення. Я його просто візуально забераю . . .
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  :hover{
+    background: #ff3f40;
+    .nav-text{
+      color: white; // очі різав сірий . . .
+    }
+  }
+}
+
+.main-nav ul a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 24px;
+  outline: none;
+  text-decoration: none;
+}
+
+.nav-text{
+  color: #e0e0e0;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.49px;
+}

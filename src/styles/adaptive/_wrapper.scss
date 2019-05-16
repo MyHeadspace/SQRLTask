@@ -1,0 +1,166 @@
+@include respond-to('wrapper') {
+  .head{
+    // margin-bottom: 40px; 
+  }
+  // HEADER
+  .header{
+    padding-top: 0;
+  }
+  .header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    margin-bottom: 50px;
+  }
+  .header-home-info{
+    max-width: max-content;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    // justify-content: center;
+  }
+  .info-title{
+    margin-bottom: 20px; 
+    font-size: 55px;
+  }
+  // ABOUT US
+  .aboutUs{
+    padding-top: 0;
+    padding-bottom: 50px; 
+    margin-bottom: 0;
+  }
+  .aboutUs-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    padding-bottom: 20px; 
+  }
+  .aboutUs-home-info{
+    max-width: max-content;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .aboutUs-title{
+    margin-bottom: 20px; 
+  }
+  .aboutUs-species{
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    // align-items: center;
+     margin-left: 20px;  
+  }
+  .aboutUs-species-conteiner{
+    // max-width: 400px ;
+    // flex-grow: 1;
+    padding-right: 20px; 
+    // align-items: center;
+  }
+  // PORTFOLIO
+  .portfolio{
+    padding-top: 0;
+    padding-bottom: 50px; 
+    margin-bottom: 0;
+  }
+  .portfolio-wrapper{
+    margin-bottom: 0;
+  }
+  .portfolio-border{
+    margin-bottom: 20px;
+  }
+  .portfolio-nav ul{
+    margin: 0;
+    justify-content: center;
+  }
+  .portfolio-nav-list{
+    margin: 0 15px;
+    font-size: 16px;
+  }
+
+  // JOIN US
+  .joinUs-team{
+    height: 100%;
+  }
+  .joinUs-info{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 50px; 
+  }
+  .joinUs-team ul{
+    flex-flow: column;
+    justify-content: flex-start;
+    padding: 0 20px 0 10px;
+  }
+  .joinUs-team-human__active{
+    width: 70%;
+    .joinUs-team-human-info{
+      display: flex;  
+      flex-flow: column;
+      flex-grow: 1.5;
+      margin: 0 0 0 20px;
+    }
+    .joinUs-team-human-info__links{
+      display: flex;
+      flex-flow: wrap;
+      .joinUs-team-human-info__link{
+        margin: 0;
+        margin-right: 10px; 
+      }
+    }
+  }
+  .joinUs-team-human{
+    margin-bottom: 10px; 
+  }
+  // SUBSCRIBE
+  .subscribe{
+    margin-bottom: 0; 
+  }
+  .subscribe-info{
+    text-align: center;
+  }
+  // CONTACT
+  .contact{
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 0; 
+  }
+  .contact-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; 
+  }
+  .contact-info{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .portfolio-border{
+    margin-bottom: 50px; 
+  }
+  .contact-right{
+    display: flex;
+    position: relative;
+    bottom: 0;
+  }
+  .contact-links{
+    width: 100%;
+
+  }
+  // footer
+  .footer{
+      border-top: 0.5px solid #ebebeb36; /* Линия сверху текста */
+  }
+}

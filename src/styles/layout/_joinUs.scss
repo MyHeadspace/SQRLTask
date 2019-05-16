@@ -1,0 +1,128 @@
+.joinUs{
+  display: flex;
+  justify-content: center;
+}
+.wrapper-joinUs{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.joinUs-text{
+  text-align: start;
+}
+
+.joinUs-team{
+  display: flex;
+  justify-content: center;
+  height: 490px;
+  margin-bottom: 100px; 
+}
+
+.joinUs-team ul{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  // flex-flow: wrap;
+  z-index: 10;
+}
+
+.joinUs-team-human-image{
+  position: relative;
+}
+
+.joinUs-team-human-image:hover p{
+  display: block;
+}
+
+.joinUs-team-human-image__text{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 5px 0px;
+  text-align: center;
+  width: 100%;
+  background: #00000079;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  // text-align: center;
+
+}
+
+.joinUs-team-human__active{
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  display: flex;
+  // justify-content: space-around;
+  .joinUs-team-human-image:hover p{
+    display: none;
+  }
+  .joinUs-team-human__img{
+    width: 350px;
+    height: 458px;
+  }
+  .joinUs-team-human-info{
+    display: block;
+  }
+}
+.joinUs-team-human-info{
+  display: none;
+  margin: 0 70px;
+}
+
+.joinUs-team-human-info__titel{
+  margin-bottom: 30px;
+  opacity: 0.8;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.joinUs-team-human-info__text{
+  margin-bottom: 25px;
+  opacity: 0.7;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+.joinUs-team-human-info__links{
+  :first-child{
+    margin: 0;
+  }
+}
+
+.joinUs-team-human-info__link{
+  opacity: 0.75;
+  margin: 0 15px;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.joinUs-team-human{
+  margin-left: 10px;
+}
+
+.joinUs-team-human a{
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.joinUs-team-human__img{
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 210px;
+  background: #e0b699b7;
+}

@@ -1,0 +1,13 @@
+@else if $breakpoint=="wrapper" {
+  @media (max-width: 1170px) {
+    @content;
+    // Head
+    .wrapper{
+      max-width: 100vw;
+    }
+    // Header
+    .header-wrapper{
+      display: flex;
+    }
+  }
+}

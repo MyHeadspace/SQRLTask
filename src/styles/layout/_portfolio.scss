@@ -1,0 +1,88 @@
+.portfolio{
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-wrapper{
+  display: flex;
+  flex-flow: column
+}
+
+.porfolio-info{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.portfolio-titel{
+  margin-bottom: 30px; 
+  opacity: 0.8;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+
+.portfolio-text{
+  text-align: center;
+  max-width: 500px;
+  margin-bottom: 30px;
+  opacity: 0.7;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.portfolio-border{
+  display: flex;
+  margin-bottom: 60px;
+  width: 132px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid; 
+  border-bottom-color: #ff2d2d;
+}
+
+// portfolio nav
+.portfolio-nav ul{
+  display: flex;
+  justify-content: space-around;
+  :hover{
+    color: #ff2d2d;
+  }
+}
+
+.portfolio-nav a{
+  outline: none;
+  text-decoration: none;
+}
+
+.portfolio-nav-list{
+  margin: 0 25px;
+  opacity: 0.7;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+// PRODUCT
+.portfolio-wrapper{
+  margin-bottom: 100px;
+}
+.portfolio-products ul{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  // padding-left: 10px; 
+}
+
+.portfolio-products ul a{
+  width: 290px;
+  height: 290px;
+  margin: 10px;
+  background: #e0b699b7; // Чёт похожое )))
+}

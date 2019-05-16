@@ -1,0 +1,6 @@
+@include respond-to('desktop') {
+  // subscribe
+  .subscribe-wrapper{
+    padding: 0 20px;
+  }
+}

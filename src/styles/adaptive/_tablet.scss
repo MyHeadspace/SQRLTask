@@ -1,0 +1,64 @@
+@include respond-to('tablet') {
+  // DESKTOP
+  .video-box{
+    width: 100vw;
+    height: 50vw;
+  }
+  // PORTFOLIO
+  .portfolio-nav ul{
+    margin: 0;
+    justify-content: center;
+    flex-flow: wrap;
+  }
+  .portfolio-nav-list{
+    margin: 10px 10px;
+    font-size: 14px;
+  }
+  // About US
+  .aboutUs-species-conteiner{
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  // JOIN US
+  .joinUs-team-human__active{
+    width: 100%;
+    padding: 20px;
+    margin-left: 0; 
+    .joinUs-team-human-info{
+      display: flex;  
+      flex-flow: column;
+      flex-grow: 1.5;
+      margin: 0 0 0 20px;
+    }
+  }
+    .joinUs-info{
+      margin-bottom: 50px; 
+      // display: none;
+    }
+    .joinUs-team {
+      margin-bottom: 50px; 
+    }
+    .joinUs-team ul{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      // align-items: center;
+      padding: 550px 20px 0 10px;
+    }
+    .joinUs-team-human{
+      margin-bottom: 20px;
+    }
+    // SUBSCRIBE
+    .subscribe-btn__input{
+      width: 300px;
+    }
+    .subscribe-btn__btn{
+      width: 150px;
+    }
+    // CONTACT
+    .contact-left{
+      width: 100%;
+      padding: 20px;
+    }
+}

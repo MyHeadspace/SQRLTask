@@ -1,0 +1,92 @@
+// Кастомні стилі з зборкі ( мені не заважають так що залишу - можливо щось з ними придумаю )
+body{
+  background: $white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $grey;
+  .link {
+    &:hover {
+      color: darken($color-primary, 15);
+    }
+  }
+  .logo-link {
+    padding: 10px 10px;
+    margin-right: 10px;
+    border-right: 1px solid $grey;
+    &:hover {
+      background: $pink;
+    }
+  }
+  .logo-img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+// Наші стилі під шапку
+
+header {
+  display: flex;
+  justify-content: center;
+  background: $light-grey;
+  padding-top: 100px;
+}
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 110px;
+}
+
+.header-home-info{
+  max-width: 50%;
+}
+
+.info-title{
+  margin-bottom: 40px;
+  color: #000000;
+  font-family: "Open Sans - Extrabold";
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+
+.info-text{
+  margin-bottom: 60px;
+  opacity: 0.7;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.contacrtBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+  width: 227px;
+  min-height: 55px;
+  border-radius: 5px;
+  background-color: #ff2d2d;
+  // стилі текста
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34.06px;
+}
+
+.video-box{
+  width: 551px;
+  height: 356px;
+  background-color: #000000;  // Мені особисто бекграунд не подобається я би туди якусь картинку вкінув ( або по силкам на ютуб і т.д. )
+  box-shadow: -2px -14px 73px rgba(0, 0, 0, 1);
+  opacity: 0.2;
+}
